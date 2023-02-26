@@ -10,7 +10,7 @@ nameInputEl.addEventListener('input', (event) => {
     return;
   }
 
-  nameOutputEl.textContent = event.target.value;
+  nameOutputEl.textContent = event.target.value.trim();
 
   return;
 });
