@@ -10,11 +10,6 @@ const numberOfBoxesEl = document.querySelector('#controls input');
 const boxesContainer = document.querySelector('#boxes');
 let numberOfBoxes = 0;
 
-console.log(createBoxesBtn);
-console.log(destroyBoxesBtn);
-console.log(numberOfBoxesEl);
-console.log(boxesContainer);
-
 createBoxesBtn.addEventListener('click', createBoxes);
 destroyBoxesBtn.addEventListener('click', destroyBoxes);
 numberOfBoxesEl.addEventListener('blur', (event) => {
